@@ -1,0 +1,46 @@
+[Hospital]
+    *hospital_id {label:"Primary Key"}
+    hospital_name
+    hospital_state
+
+[Physician]
+    *physician_id {label:"Primary Key"}
+    physician_name
+    physician_dob
+    physician_grad_year
+    medical_school
+    salary
+
+[Payer]
+    *payer_id {label:"Primary Key"}
+    payer_name
+
+[Review]
+    *review_id {label:"Primary Key"}
+    visit_id
+    review
+    physician_name
+    hospital_name
+    patient_name
+
+[Visit]
+    *visit_id {label:"Primary Key"}
+    patient_id
+    date_of_admission
+    room_number
+    admission_type
+    chief_complaint
+    primary_diagnosis
+    treatment_description
+    test_results
+    discharge_date
+    *physician_id
+    *hospital_id
+    *payer_id
+    billing_amount
+    visit_status
+
+Hospital *--1 Visit
+Physician *--1 Visit
+Payer *--1 Visit
+Visit *--* Review
