@@ -11,6 +11,6 @@ The stakeholders require answers to two primary types of questions, each demandi
 
 ## Dataset
 
-The datasets cover various aspects of hospital operations including details about hospitals, physicians, insurance payers, patient visits, and reviews. Find more details ![here](data/README.md)
+The datasets cover various aspects of hospital operations including details about hospitals, physicians, insurance payers, patient visits, and reviews. Find more details [here](data/README.md)
 
 ![](images/er_diagram.png)
