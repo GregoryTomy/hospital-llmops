@@ -13,6 +13,10 @@ eralchemy = "*"
 retry = "*"
 neo4j = "*"
 black = "*"
+pydantic = "*"
+fastapi = "*"
+uvicorn = "*"
+asyncio = "*"
 
 [dev-packages]
 
