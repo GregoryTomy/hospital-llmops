@@ -1,0 +1,6 @@
+services:
+  hospital_data_upload:
+    build: 
+      context: ./hospital_data_upload
+    env_file:
+      - .env

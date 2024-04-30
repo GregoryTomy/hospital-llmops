@@ -10,6 +10,9 @@ python-dotenv = "*"
 ipykernel = "*"
 langchain-openai = "*"
 eralchemy = "*"
+retry = "*"
+neo4j = "*"
+black = "*"
 
 [dev-packages]
 
