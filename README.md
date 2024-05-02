@@ -15,4 +15,4 @@ The datasets cover various aspects of hospital operations including details abou
 
 ### Hospital Data Graph
 
-![](images/hospital_graph.png)
+![](images/hospital_graph_1.png)
