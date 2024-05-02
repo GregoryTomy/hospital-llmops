@@ -17,6 +17,7 @@ pydantic = "*"
 fastapi = "*"
 uvicorn = "*"
 asyncio = "*"
+langchainhub = "*"
 
 [dev-packages]
 
