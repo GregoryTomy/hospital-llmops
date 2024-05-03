@@ -1,4 +1,4 @@
-# hotel-llmops
+# hospital-llmops
 [In Progress] Building a RAG chatbot in LangChain that uses Neo4j to retrieve data from multiple documents.
 
 ## Business scenario
