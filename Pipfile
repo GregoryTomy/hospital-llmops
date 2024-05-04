@@ -18,6 +18,8 @@ fastapi = "*"
 uvicorn = "*"
 asyncio = "*"
 langchainhub = "*"
+httpx = "*"
+streamlit = "*"
 
 [dev-packages]
 
