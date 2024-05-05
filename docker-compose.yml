@@ -1,19 +1,26 @@
 services:
-  chatbot_backend:
-    build:
-      context: ./chatbot_backend
+  data-upload:
+    container_name: hospital-data-upload
+    build: hospital_data_upload
     env_file:
       - .env
-    # depends_on:
-    #   - hospital_data_upload
+
+  chatbot-backend:
+    container_name: hospital-chatbot-backend
+    build: chatbot_backend
+    env_file:
+      - .env
+    depends_on:
+      - data-upload
     ports:
       - 8000:8000
 
-  chatbot_frontend:
+  chatbot-frontend:
+    container_name: hospital-chatbot-frontend
     build: chatbot_frontend
     env_file:
       - .env
     depends_on:
-      - chatbot_backend
+      - chatbot-backend
     ports:
       - 8501:8501
