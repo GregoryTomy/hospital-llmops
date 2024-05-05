@@ -15,6 +15,10 @@ with st.sidebar:
         """
     )
 
+    if st.button("View Repository"):
+        import webbrowser
+        webbrowser.open("https://github.com/GregoryTomy/hospital-llmops")
+
     st.header("Example Questions for a Healthcare Information System")
 
     st.subheader("Objective Queries")
@@ -42,6 +46,7 @@ with st.sidebar:
     st.markdown("-Which hospital has the shortest wait time?")
 
 st.title('Hospital System Chatbot')
+st.subheader("By Gregory Tomy")
 st.info("Feel free to ask me questions related to patients, visits, insurance payers, hospitals, physicians, reviews, and wait times!")
 
 # Initialize session state for storing chat messages
