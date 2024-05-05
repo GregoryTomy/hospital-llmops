@@ -24,7 +24,6 @@ with st.sidebar:
     st.subheader("Objective Queries")
     st.markdown("These queries involve precise data retrieval, often quantifiable and specific:")
     st.markdown("- Which hospitals are in the hospital system?")
-    st.markdown("- What is the current wait time at Wallace-Hamilton Hospital?")
     st.markdown("- What is the average duration in days for closed emergency visits?")
     st.markdown("- What was the total billing amount charged to each payer for 2023?")
     st.markdown("- What is the average billing amount for Medicaid visits?")
