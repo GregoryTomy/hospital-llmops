@@ -77,7 +77,6 @@ if prompt := st.chat_input("What would you like to know?"):
     with st.spinner("Searching database..."):
         url = "http://chatbot-backend:8000/hospital-rag-agent"
         # url = "http://host.docker.internal:8000/hospital-rag-agent"
-        # url = "https://ideal-adventure-67j6vprxvj7f4vv5-8000.app.github.dev/hospital-rag-agent"
         # url = "http://0.0.0.0:8000/hospital-rag-agent"
         response = requests.post(url, json=data)
 
