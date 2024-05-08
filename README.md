@@ -1,7 +1,17 @@
 # Hospital Chatbot - LLMOps with LangChain and Neo4J
 
-[In Progress] Building a RAG chatbot in LangChain that uses Neo4j to retrieve data from multiple documents.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Business scenario](#business-scenario)
+- [Dataset](#dataset)
+- [Neo4J and Graph Databases](#neo4j-and-graph-databases)
+- [LangChain and LLM Agents](#langchain-and-llm-agent)
+- [Local Deployment](#local-deployment-guide)
+
+
+## Demo
 >The chatbot can be accessed at:
 https://hospitalllm.azurewebsites.net/
 
@@ -21,11 +31,12 @@ The datasets cover various aspects of hospital operations including details abou
 
 ![](images/hospital_graph_1.png)
 
-## Neo4j and Graph Databases
+## Chatbot Solution
 
-## LangChain and LLM Agent
+![](images/chatbot_solution.png)
 
 ## Local Deployment Guide
 
 ---
 #### Acknowledgements
+Special thanks to [Harrison Hoffman](https://www.linkedin.com/in/harrison-f-hoffman/) for his excellent guide and insights.
