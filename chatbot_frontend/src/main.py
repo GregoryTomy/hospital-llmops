@@ -26,18 +26,11 @@ with st.sidebar:
     st.markdown("- Which hospitals are in the hospital system?")
     st.markdown("- What is the average duration in days for closed emergency visits?")
     st.markdown("- What was the total billing amount charged to each payer for 2023?")
-    st.markdown("- What is the average billing amount for Medicaid visits?")
-    st.markdown("- Which physician has the lowest average visit duration in days?")
-    st.markdown("- How much was billed for patient 789's stay?")
-    st.markdown("- What is the average billing amount per day for Aetna patients?")
-    st.markdown("- Which state had the largest percent increase in Medicaid visits from 2022 to 2023?")
 
     st.subheader("Subjective Analysis")
     st.markdown("These questions require analysis of qualitative data such as patient feedback:")
     st.markdown("- At which hospitals are patients complaining about billing and insurance issues?")
     st.markdown("- What are patients saying about the nursing staff at Castaneda-Hardy?")
-    st.markdown("- How many reviews have been written from patients in Florida?")
-    st.markdown("- Which physician has received the most reviews for the visits they've attended?")
 
     st.subheader("Tool-Based Queries Using Tools")
     st.markdown("These questions require the agent to use specific tools for accurate information:")
@@ -98,5 +91,3 @@ if prompt := st.chat_input("What would you like to know?"):
             "explanation": explanation
         }
     )
-
-
