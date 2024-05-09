@@ -46,6 +46,7 @@ To address the complex needs of the hospital's stakeholders, our solution incorp
 
 ## Prompt Engineering
 Prompt engineering is an essential component of our chatbot solution, playing a pivotal role in maximizing the performance and accuracy of the LLM agent. This process involves the design and refinement of the prompts used to interact with the model, ensuring they are clear, specific, and well-aligned with the model's capabilities and training data. The prompt to generate Cypher queries is below:
+
 <div style="overflow-y: scroll; height:200px;">
 
 ```text
