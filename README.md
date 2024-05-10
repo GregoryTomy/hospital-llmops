@@ -15,6 +15,8 @@
 >The chatbot can be accessed at:
 https://hospitalllm.azurewebsites.net/
 
+![](images/hospital_chatbot_demo.gif)
+
 ## Business scenario
 A large hospital system is seeking to enhance its ability to dynamically interact with and analyze vast amounts of patient, visit, physician, hospital, and insurance payer data. The goal is to develop a solution that enables non-technical stakeholders to obtain real-time insights through natural language queries, eliminating the need for expertise in SQL or reliance on data analysts for report generation and dashboard creation.
 
